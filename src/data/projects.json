@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Blockchain based Smart Energy grid with billing.",
+    "imageSrc": "projects/project.png",
+    "description": "This is a decentralised application that is used to manage the smart Grid and Generates electricity Bill automatically.",
+    "skills": ["Solidity", "Ethereum", "React"],
+    "demo": "https://energy-grid.vercel.app/",
+    "source": "https://github.com/prathvish2003/Energy-Grid"
+  },
+  {
+    "title": "FoodEase",
+    "imageSrc": "projects/project.png",
+    "description": "TI created FoodEase, an online food delivery application that offers a seamless and efficient user experience, inspired by leading platforms in the industry.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://github.com/ChinmayaR23/Swiggy-Clone",
+    "source": "https://github.com/ChinmayaR23/Swiggy-Clone"
+  },
+  {
+    "title": "Toxicity detection",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made detect the toxicity of comment done by a user in Youtube.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Harshithvarma007/Toxic-Comments-Detection/tree/main"
+  }
+]

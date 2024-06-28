@@ -1,0 +1,74 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 680px;
+  border-radius: 10px;
+  background: rgba(25, 55, 109, 0.7);
+  box-shadow: 0 16px 14px 0 #1f3b4d;
+  padding: 18px 24px;
+  max-width: 345px;
+  box-sizing: border-box; /* Ensure padding is included in height calculation */
+}
+
+.image {
+  margin-bottom: 26px;
+  flex-shrink: 0; /* Prevent the image from shrinking */
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+}
+
+.description {
+  margin-top: 6px;
+  font-size: 25px;
+  font-weight: 400;
+  color: white;
+  flex-grow: 1; /* Allow the description to grow and take up remaining space */
+}
+
+.skills {
+  width: 100%;
+  margin-top: 14px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 6px;
+  list-style: none;
+}
+
+.skill {
+  font-size: 25px;
+  font-weight: 400;
+  border-radius: 100px;
+  background: #1f3b4d;
+  color: #f7f7f7;
+  padding: 2px 22px;
+}
+
+.links {
+  width: 100%;
+  margin-top: 26px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+  text-decoration: none;
+  color: #f7f7f7;
+  font-size: 30px;
+  font-weight: 600;
+  border-radius: 10px;
+  background: #0a74da;
+  padding: 10px 22px;
+  flex-shrink: 0; /* Prevent the links from shrinking */
+  transition: background 0.3s;
+}
+
+.link:hover {
+  background: #005bb5;
+}
